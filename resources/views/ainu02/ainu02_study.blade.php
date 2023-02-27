@@ -1,0 +1,189 @@
+@extends('layouts.ainu02_frame')
+@section('content')
+
+<head>
+    <style>
+    .backhome{
+     text-align: center;
+    }
+
+    .title{
+     text-align: center;
+    }
+
+    th{
+        text-align: center;
+    }
+    </style>
+</head>
+
+<div class="top-head">
+<h1>アイヌ語講座</h1>
+</div>
+
+<div class="title">
+<h2>アイヌ語学習単語一覧</h2>
+</div>
+
+<table border="2" align="center">
+<tr>
+<th>カタカナ表記</th><th>アルファベット表記</th><th>意味</th>
+</tr>
+<tr><td>アイヌ</td><td>aynu</td><td>人</td></tr>
+<tr><td>アエプ</td><td>aep</td><td>食べ物</td></tr>
+<tr><td>アシクネ</td><td>asikne</td><td>5</td></tr>
+<tr><td>アトゥイ</td><td>atuy</td><td>海</td></tr>
+<tr><td>アニ</td><td>ani</td><td>～を手に持つ</td></tr>
+<tr><td>アプカシ</td><td>apkas</td><td>歩く</td></tr>
+<tr><td>アミプ</td><td>amip</td><td>着物</td></tr>
+<tr><td>アム</td><td>am</td><td>爪</td></tr>
+<tr><td>アラキ</td><td>arki</td><td>(複数人が)来る</td></tr>
+<tr><td>アラワン</td><td>arwan</td><td>7</td></tr>
+<tr><td>アンパヤヤ</td><td>ampayaya</td><td>蟹</td></tr>
+<tr><td>イエ</td><td>ye</td><td>～を言う</td></tr>
+<tr><td>イケウ</td><td>ikkew</td><td>腰</td></tr>
+<tr><td>イタク</td><td>itak</td><td>話す</td></tr>
+<tr><td>イチェン</td><td>icen</td><td>お金</td></tr>
+<tr><td>イネ</td><td>ine</td><td>4</td></tr>
+<tr><td>イペ</td><td>ipe</td><td>食事する</td></tr>
+<tr><td>イヨハイシトマレ</td><td>iyahaysitomare</td><td>おどろいた</td></tr>
+<tr><td>イリワク</td><td>irwak</td><td>兄弟</td></tr>
+<tr><td>ウシケ</td><td>uske</td><td>ところ</td></tr>
+<tr><td>ウナルペ</td><td>unarpe</td><td>おばさん</td></tr>
+<tr><td>ウヌ</td><td>unu</td><td>母親</td></tr>
+<tr><td>ウレ</td><td>ure</td><td>足</td></tr>
+<tr><td>ウンマ</td><td>umma</td><td>馬</td></tr>
+<tr><td>エ</td><td>e</td><td>～を食べる</td></tr>
+<tr><td>エアシカイ</td><td>easkay</td><td>～ができる</td></tr>
+<tr><td>エイヨク</td><td>eyyok</td><td>～を売る</td></tr>
+<tr><td>エカシ</td><td>ekasi</td><td>おじいさん</td></tr>
+<tr><td>エク</td><td>ek</td><td>(一人が)来る</td></tr>
+<tr><td>エシノツ</td><td>esinot</td><td>～で遊ぶ</td></tr>
+<tr><td>エソウク</td><td>esouk</td><td>(消費物)を借りる</td></tr>
+<tr><td>エチオカ</td><td>ecioka</td><td>あなたたち</td></tr>
+<tr><td>エトゥン</td><td>etun</td><td>(消費しないもの)を借りる</td></tr>
+<tr><td>エプンキネ</td><td>epunkine</td><td>～を守る</td></tr>
+<tr><td>エムシ</td><td>emus</td><td>太刀</td></tr>
+<tr><td>エヤプキリ</td><td>eyapkir</td><td>～を投げる</td></tr>
+<tr><td>エラムアン</td><td>eramuan</td><td>～(単数形)が分かる</td></tr>
+<tr><td>オイカ</td><td>oika</td><td>～を越えて</td></tr>
+<tr><td>オイラ</td><td>oyra</td><td>～を忘れる</td></tr>
+<tr><td>オケレ</td><td>okere</td><td>～を終える</td></tr>
+<tr><td>オタ</td><td>ota</td><td>砂</td></tr>
+<tr><td>オッカヨ</td><td>okkayo</td><td>男</td></tr>
+<tr><td>オトプ</td><td>otop</td><td>髪</td></tr>
+<tr><td>オナ</td><td>ona</td><td>父親</td></tr>
+<tr><td>オハウキナ</td><td>ohawkina</td><td>ニリンソウ</td></tr>
+<tr><td>オピッタ</td><td>opitta</td><td>全体</td></tr>
+<tr><td>オマプ</td><td>omap</td><td>～をかわいがる</td></tr>
+<tr><td>オルシペ</td><td>oruspe</td><td>話</td></tr>
+<tr><td>カイパ</td><td>kaypa</td><td>～(複数形)を折る</td></tr>
+<tr><td>カスイ</td><td>kasuy</td><td>～を助ける</td></tr>
+<tr><td>カニ</td><td>kani</td><td>私</td></tr>
+<tr><td>カム</td><td>kam</td><td>肉</td></tr>
+<tr><td>カラク</td><td>karku</td><td>甥</td></tr>
+<tr><td>カンピソシ</td><td>kampisos</td><td>本</td></tr>
+<tr><td>キキリ</td><td>kikir</td><td>虫</td></tr>
+<tr><td>キサラ</td><td>kisar</td><td>耳</td></tr>
+<tr><td>キナカラ</td><td>kinakar</td><td>山菜を取る</td></tr>
+<tr><td>キミ</td><td>kimi</td><td>トウモロコシ</td></tr>
+<tr><td>キラ</td><td>kira</td><td>逃げる</td></tr>
+<tr><td>クッ</td><td>kut</td><td>帯</td></tr>
+<tr><td>ケシトアンコロ</td><td>kestoankor</td><td>毎月</td></tr>
+<tr><td>ケレ</td><td>ker</td><td>靴</td></tr>
+<tr><td>ケレ</td><td>kere</td><td>～に触る</td></tr>
+<tr><td>コタンコロカムイ</td><td>kotankorkamy</td><td>シマフクロウ</td></tr>
+<tr><td>コニム</td><td>konimu</td><td>～をのぼる</td></tr>
+<tr><td>コロコニ</td><td>korkoni</td><td>フキ</td></tr>
+<tr><td>コンル</td><td>konru</td><td>氷</td></tr>
+<tr><td>サク</td><td>sak</td><td>夏</td></tr>
+<tr><td>サッ</td><td>sat</td><td>乾く</td></tr>
+<tr><td>サッケ</td><td>satke</td><td>～を干す</td></tr>
+<tr><td>サン</td><td>san</td><td>山を下りる</td></tr>
+<tr><td>シク</td><td>sik</td><td>目</td></tr>
+<tr><td>シサム</td><td>sisam</td><td>和人</td></tr>
+<tr><td>シネぺサン</td><td>sinepesan</td><td>9</td></tr>
+<tr><td>シライレ</td><td>sirayre</td><td>死んだふりをする</td></tr>
+<tr><td>シリセセク</td><td>sirsesek</td><td>暑い</td></tr>
+<tr><td>シンキ</td><td>sinki</td><td>疲れる</td></tr>
+<tr><td>スケ</td><td>suke</td><td>料理する</td></tr>
+<tr><td>スッ</td><td>sut</td><td>祖母</td></tr>
+<tr><td>スプン</td><td>supun</td><td>ウグイ</td></tr>
+<tr><td>スマ</td><td>suma</td><td>石</td></tr>
+<tr><td>セトゥル</td><td>setur</td><td>背中</td></tr>
+<tr><td>ソイ</td><td>soy</td><td>外</td></tr>
+<tr><td>タウキ</td><td>tauki</td><td>～を叩き切る</td></tr>
+<tr><td>タント</td><td>tanto</td><td>今日</td></tr>
+<tr><td>タンネ</td><td>tanne</td><td>長い</td></tr>
+<tr><td>チカプ</td><td>cikap</td><td>鳥</td></tr>
+<tr><td>チポ</td><td>cipo</td><td>舟を漕ぐ</td></tr>
+<tr><td>チャペ</td><td>cape</td><td>ネコ</td></tr>
+<tr><td>チュク</td><td>cuk</td><td>秋</td></tr>
+<tr><td>テク</td><td>tek</td><td>手</td></tr>
+<tr><td>テレケイペ</td><td>terkeype</td><td>カエル</td></tr>
+<tr><td>トゥイエ</td><td>tuye</td><td>～(単数形)を切る</td></tr>
+<tr><td>トゥイパ</td><td>tuypa</td><td>～(複数形)を切る</td></tr>
+<tr><td>トゥイマ</td><td>tuyma</td><td>遠い</td></tr>
+<tr><td>トゥクシシ</td><td>tukusis</td><td>アメマス</td></tr>
+<tr><td>トゥレプ</td><td>turep</td><td>オオウバユリ</td></tr>
+<tr><td>トカプ モコロ</td><td>tokap mokor</td><td>昼寝</td></tr>
+<tr><td>トノト</td><td>tonoto</td><td>酒</td></tr>
+<tr><td>トランネ</td><td>toranne</td><td>怠ける</td></tr>
+<tr><td>ナム</td><td>nam</td><td>冷たい</td></tr>
+<tr><td>ニセウ</td><td>nisew</td><td>ドングリ</td></tr>
+<tr><td>ニタイ</td><td>nitay</td><td>林</td></tr>
+<tr><td>ニハム</td><td>niham</td><td>木の葉</td></tr>
+<tr><td>ニプ</td><td>nip</td><td>柄</td></tr>
+<tr><td>ヌイナ</td><td>nuyna</td><td>～を隠す</td></tr>
+<tr><td>ヌプリコロカムイ</td><td>nupurikorkamuy</td><td>熊(=山を守る神)</td></tr>
+<tr><td>ヌペ</td><td>nupe</td><td>涙</td></tr>
+<tr><td>ヌマン</td><td>numan</td><td>昨日</td></tr>
+<tr><td>ネプキ</td><td>nepki</td><td>働く</td></tr>
+<tr><td>ノンノ</td><td>nonno</td><td>花</td></tr>
+<tr><td>パイカラ</td><td>paykar </td><td>春</td></tr>
+<tr><td>パシクル</td><td>paskur</td><td>カラス</td></tr>
+<tr><td>パスイ</td><td>pasuy</td><td>箸</td></tr>
+<tr><td>パラ</td><td>par</td><td>口</td></tr>
+<tr><td>ヒオーイオイ</td><td>hioy'oy</td><td>ありがとう</td></tr>
+<tr><td>プクサキナ</td><td>pukusakina</td><td>ニリンソウ</td></tr>
+<tr><td>プクル</td><td>pukuru</td><td>袋</td></tr>
+<tr><td>プヤラ</td><td>puyar</td><td>窓</td></tr>
+<tr><td>フラヌイ</td><td>huranuy</td><td>富良野</td></tr>
+<tr><td>フンぺ</td><td>humpe</td><td>クジラ</td></tr>
+<tr><td>ヘカチ</td><td>hekaci</td><td>少年</td></tr>
+<tr><td>ペッ</td><td>pet</td><td>川</td></tr>
+<tr><td>ヘペレ</td><td>heper</td><td>子熊</td></tr>
+<tr><td>ヘマンタ</td><td>hemanta</td><td>何</td></tr>
+<tr><td>ポ</td><td>po</td><td>息子</td></tr>
+<tr><td>ホク</td><td>hok</td><td>夫</td></tr>
+<tr><td>ホッケ</td><td>hokke</td><td>寝る</td></tr>
+<tr><td>ポネ</td><td>pone</td><td>骨</td></tr>
+<tr><td>ホプニ</td><td>hopuni</td><td>(単数形が)起き上がる</td></tr>
+<tr><td>ホユプ</td><td>hoyupu</td><td>(複数形が)走る</td></tr>
+<tr><td>ポル</td><td>poru</td><td>洞穴</td></tr>
+<tr><td>マッ</td><td>mat</td><td>妻</td></tr>
+<tr><td>マッカラク</td><td>matkarku</td><td>姪</td></tr>
+<tr><td>ミチ</td><td>mici</td><td>お父さん(呼ぶとき)</td></tr>
+<tr><td>ミッポ</td><td>mippo</td><td>孫</td></tr>
+<tr><td>メノコ</td><td>menoko</td><td>女</td></tr>
+<tr><td>モユク</td><td>moyuk</td><td>タヌキ</td></tr>
+<tr><td>ヤウンモシリ</td><td>yaunmosir</td><td>北海道</td></tr>
+<tr><td>ヤムワッカナイ</td><td>yamwakkanay</td><td>稚内</td></tr>
+<tr><td>ユプ</td><td>yup</td><td>兄</td></tr>
+<tr><td>ランコ</td><td>ranko</td><td>カツラ(樹木)</td></tr>
+<tr><td>リキプ</td><td>rikip</td><td>(複数形が)上がる</td></tr>
+<tr><td>ルイケ</td><td>ruyke</td><td>～を研ぐ</td></tr>
+<tr><td>ルラ</td><td>rura</td><td>～を運ぶ</td></tr>
+<tr><td>レ</td><td>re</td><td>3</td></tr>
+<tr><td>レクッ</td><td>rekut</td><td>首</td></tr>
+<tr><td>レタラ</td><td>retar</td><td>白い</td></tr>
+<tr><td>レヘ</td><td>rehe</td><td>名前</td></tr>
+<tr><td>ロンヌ</td><td>ronnu</td><td>～(複数形)を殺す</td></tr>
+<tr><td>ワッカタ</td><td>wakkata</td><td>水を汲む</td></tr>
+</table>
+
+<div class="backhome">
+<a class="btn btn-outline-dark" href={{ url('/ainu02/ainu02') }} role="button">トップページに戻る</a>
+</div>
+
+@endsection()
